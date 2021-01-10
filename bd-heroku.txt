@@ -1,0 +1,19 @@
+postgres://
+
+djlexhlzxlsofv
+:
+978ad673f14f02ddf5d07e25ccb088e5493fe81f5be4d8c1d23b6e2b1659fd2d
+@
+ec2-54-147-126-202.compute-1.amazonaws.com
+:
+5432
+/
+dche1hdobnffmj
+
+$conf['servers'][1]['desc'] = 'Heroku_dsdeliver';
+$conf['servers'][1]['host'] = 'ec2-54-147-126-202.compute-1.amazonaws.com';
+$conf['servers'][1]['port'] = 5432;
+//$conf['servers'][1]['sslmode'] = 'allow';
+$conf['servers'][1]['pg_dump_path'] = '/usr/bin/pg_dump';
+$conf['servers'][1]['defaultdb'] = 'dche1hdobnffmj';
+$conf['servers'][1]['pg_dumpall_path'] = '/usr/bin/pg_dumpall';
